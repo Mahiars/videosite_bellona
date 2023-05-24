@@ -13,7 +13,6 @@ header {
   background: url(../picture/header_picture.png);
   background-repeat: repeat-x;
   background-size: 100px 100px;
-  
 }
 
 .logo_bellona {
@@ -22,75 +21,61 @@ header {
 }
 
 .header_wrapper {
-    max-width: 1700px;
+  max-width: 1700px;
   display: flex;
   justify-content: space-between;
-  margin: 0 auto;
-height: 100px;
-align-items: center;
+  height: 100px;
+  align-items: center;
 }
-
-
 
 nav ul {
   display: flex;
   justify-content: space-between;
-  align-items: end;
   font-size: 20px;
-  
+  width: 100%;
 }
+
 
 nav li {
   list-style: none;
-  
 }
 
 nav a {
   text-decoration: none;
-  
-  padding: .5em 1.5em;
 }
 
-
-
-.active{
-    font-weight: bolder;
+.active {
+  font-weight: bolder;
 }
 
-
-
-footer{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-footer p{
-    color: whitesmoke;
-    font-weight: bold;
-   
-}
-
-time{
+footer p {
   color: whitesmoke;
-    font-weight: bold;
+  font-weight: bold;
 }
 
-h4{
-    color: whitesmoke;
-    font-size: 25px;
+time {
+  color: whitesmoke;
+  font-weight: bold;
 }
 
-.telefon{
-    font-size: 25px;
+h4 {
+  color: whitesmoke;
+  font-size: 25px;
 }
 
-.green_color{
-    color: #478E53;
+.telefon {
+  font-size: 25px;
 }
 
-
-
+.green_color {
+  color: #478e53;
+}
 
 /* burgermenu */
 .toggle-btn {
@@ -123,23 +108,4 @@ h4{
     flex-flow: column;
     flex-basis: 100%;
   }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-.main-menu ul {
-  list-style: none;
-  padding: 0;
-
-
 }
