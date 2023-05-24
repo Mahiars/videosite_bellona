@@ -18,30 +18,39 @@ header {
 .logo_bellona {
   width: 170px;
   margin-top: 3%;
+  margin-left: 10%;
 }
 
 .header_wrapper {
-  max-width: 1700px;
+  max-width: 1800px;
   display: flex;
   justify-content: space-between;
   height: 100px;
   align-items: center;
+  
+}
+
+nav{
+  margin: 0 3em;
 }
 
 nav ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   font-size: 20px;
   width: 100%;
+  
 }
 
 
 nav li {
   list-style: none;
+  
 }
 
 nav a {
   text-decoration: none;
+  
 }
 
 .active {
