@@ -156,6 +156,10 @@ ul a {
    flex-basis: 100%;
  }
 
+ .logo{
+  width: 150px;
+ }
+
  footer,
  .grid-2_1,
  .grid-1_1_1_1{
